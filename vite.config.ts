@@ -17,11 +17,6 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
-  // GitHub Pages serves project sites from https://<user>.github.io/<repo>/,
-  // so assets must be requested with that repo-name prefix. Replace
-  // 'card-stack' below with your actual repository name.
-  // If you're deploying to a USER/ORG site repo (named exactly
-  // "<your-username>.github.io"), delete this line entirely (or set it to '/').
   base: '/test1/',
   plugins: [
     figmaAssetResolver(),
